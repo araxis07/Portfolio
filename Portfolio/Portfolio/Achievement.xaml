@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Portfolio.Achievement"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView BackgroundColor="Black">
+        <StackLayout Padding="20" BackgroundColor="Black">
+            <Label
+                FontAttributes="Bold, Italic"
+                FontSize="28"
+                HorizontalOptions="Center"
+                Text="ACHIEVEMENT"
+                TextColor="White" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="1: Won the gold medal"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="GoldStar" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="2: Certificate Won the gold medal 2"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="certificate" />
+
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="3: Had the honor of receiving him and having an audience with him. His Royal Highness Her Royal Highness Princess Soamsawali Krom Muen Sutthanarinat"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="RoyalMajesty" />
+
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="4: tournament rov AIS ZEED MEGA"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="RovAIS" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

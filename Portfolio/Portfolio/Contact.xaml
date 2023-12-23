@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Portfolio.Contact"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout Padding="20" BackgroundColor="Black">
+        <Label
+            Margin="20"
+            FontAttributes="Bold, Italic"
+            HorizontalOptions="Center"
+            Text="1: Facebook"
+            TextColor="White" />
+        <ImageButton
+            x:Name="facebookBT"
+            BackgroundColor="transparent"
+            HeightRequest="300"
+            HorizontalOptions="Center"
+            Source="Facebook"
+            VerticalOptions="CenterAndExpand" />
+        <Label
+            Margin="20"
+            FontAttributes="Bold, Italic"
+            HorizontalOptions="Center"
+            Text="2: instagram"
+            TextColor="White" />
+        
+            <ImageButton
+            x:Name="IgBT"
+            BackgroundColor="transparent"
+            HeightRequest="300"
+            HorizontalOptions="Center"
+            Source="instagram"
+            VerticalOptions="CenterAndExpand" />
+
+    </StackLayout>
+</ContentPage>

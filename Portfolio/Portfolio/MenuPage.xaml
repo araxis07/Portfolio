@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Portfolio.MenuPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Menu">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <BoxView Color="Black" />
+        <StackLayout Padding="10" VerticalOptions="End">
+            <Image
+                BackgroundColor="Black"
+                HeightRequest="100"
+                HorizontalOptions="End"
+                Source="profile"
+                WidthRequest="100" />
+            <Label
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="End"
+                Text="Pavornprat Mokarat"
+                TextColor="White" />
+            <Label
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="End"
+                Text="2113110361"
+                TextColor="White" />
+        </StackLayout>
+
+
+        <StackLayout
+            Grid.Row="1"
+            Padding="10"
+            BackgroundColor="DarkOrange">
+            <Button
+                x:Name="ProfileBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="Profile2"
+                Text="Profile" />
+            <Button
+                x:Name="MyProjectBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="Project"
+                Text="My Project" />
+            <Button
+                x:Name="AchievementBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="achievement"
+                Text="Achievement" />
+            <Button
+                x:Name="GitHubBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="GitHub"
+                Text="GitHub" />
+            <Button
+                x:Name="CodeEXBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="coding"
+                Text="Coding Experience" />
+            <Button
+                x:Name="ContactBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="contact"
+                Text="Contact" />
+
+            <Button
+                x:Name="YoutubeBT"
+                BackgroundColor="Transparent"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                ImageSource="youtube"
+                Text="Music Youtube Channel" />
+
+        </StackLayout>
+
+
+
+
+
+    </Grid>
+
+</ContentPage>

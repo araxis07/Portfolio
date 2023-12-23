@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Portfolio.CodeExperience"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView BackgroundColor="Black">
+        <StackLayout Padding="20" BackgroundColor="Black">
+            <Label
+                FontAttributes="Bold, Italic"
+                FontSize="28"
+                HorizontalOptions="Center"
+                Text="CODING EXPERIENCE"
+                TextColor="White" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="1: Html"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="html" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="2: Css"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="css" />
+
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="3: Javascript"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="javascript" />
+
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="4: HTML"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="html" />
+
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="5: python"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="python" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="6: C"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="C" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="7: SQL"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="C" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="8: JAVA"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="Java" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="9: C#"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="CC" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="10: PHP"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="php" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="11: R"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="R" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="12: Typescipt"
+                TextColor="White" />
+            <Image HeightRequest="230" Source="typescript" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

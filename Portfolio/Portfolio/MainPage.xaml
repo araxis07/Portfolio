@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Portfolio.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView BackgroundColor="Black">
+        <StackLayout Padding="20" BackgroundColor="Black">
+            <Frame
+                Padding="0"
+                CornerRadius="100"
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                WidthRequest="200">
+                <Image
+                    HorizontalOptions="Center"
+                    Source="profile"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <StackLayout Padding="10">
+                <Label
+                    FontAttributes="Bold, Italic"
+                    FontSize="18"
+                    Text="Name :  Pavornprat Mokarat "
+                    TextColor="White" />
+            </StackLayout>
+
+            <StackLayout Padding="5">
+                <Label
+                    FontAttributes="Bold, Italic"
+                    FontSize="18"
+                    Text="Race: Thai Nationality: Thai"
+                    TextColor="White" />
+
+                <StackLayout Padding="5">
+                    <Label
+                        FontAttributes="Bold, Italic"
+                        FontSize="18"
+                        Text="M Dream JOB : Software Engineer."
+                        TextColor="White" />
+                </StackLayout>
+
+                <StackLayout Padding="5">
+                    <Label
+                        FontAttributes="Bold, Italic"
+                        FontSize="18"
+                        Text="Favorite Subject : japanese,History and Computer."
+                        TextColor="White" />
+                </StackLayout>
+
+
+                <StackLayout Padding="5">
+                    <Label
+                        FontAttributes="Bold, Italic"
+                        FontSize="18"
+                        Text="Hobby : Coding, Listen Music and Play Game (sometime)."
+                        TextColor="White" />
+                </StackLayout>
+
+                <StackLayout Padding="5">
+                    <Label
+                        FontAttributes="Bold, Italic"
+                        FontSize="18"
+                        Text="Favorite Music : Yoasobi and Linkin park"
+                        TextColor="White" />
+                </StackLayout>
+
+                <StackLayout Padding="5">
+                    <Label
+                        FontAttributes="Bold, Italic"
+                        FontSize="18"
+                        Text="My Passion: Embrace your passion for programming, embark on a learning journey with dedication, practice coding consistently, build real-world projects to apply your skills, and connect with the programming community for support and inspiration on your path to becoming a programmer."
+                        TextColor="White" />
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

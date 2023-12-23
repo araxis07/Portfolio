@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Portfolio.MyProject"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView BackgroundColor="Black">
+        <StackLayout Padding="20" BackgroundColor="Black">
+            <Label
+                FontAttributes="Bold, Italic"
+                FontSize="28"
+                HorizontalOptions="Center"
+                Text="Project Game "
+                TextColor="White" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="1: Pong Game"
+                TextColor="White" />
+            <Image HeightRequest="300" Source="PongGame" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="2: Pac Man "
+                TextColor="White" />
+            <Image HeightRequest="200" Source="pacMan2" />
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="3: Word Game "
+                TextColor="White" />
+            <Image HeightRequest="200" Source="wordgame" />
+
+
+            <Label
+                Margin="20"
+                FontAttributes="Bold, Italic"
+                HorizontalOptions="Start"
+                Text="4: Chess Game "
+                TextColor="White" />
+            <Image HeightRequest="200" Source="chessgame" />
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
